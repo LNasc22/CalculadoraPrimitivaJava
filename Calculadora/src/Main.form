@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="br.pucpr.lucassilva29.poo.Main">
+  <grid id="27dc6" binding="pnlMain" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-4473925"/>
+      <preferredSize width="1024" height="768"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="59fa5" binding="pnl1" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints/>
+        <properties>
+          <background color="-9008844"/>
+          <foreground color="-4473925"/>
+          <minimumSize width="10" height="10"/>
+          <name value=""/>
+          <preferredSize width="300" height="300"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="d1b5a" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <preferredSize width="300" height="30"/>
+              <text value="Calculadora primitiva"/>
+            </properties>
+          </component>
+          <component id="884af" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <text value="Número 1"/>
+            </properties>
+          </component>
+          <component id="966d4" class="javax.swing.JTextField" binding="txtNum1">
+            <constraints/>
+            <properties>
+              <background color="-16316665"/>
+              <foreground color="-1"/>
+              <preferredSize width="200" height="30"/>
+            </properties>
+          </component>
+          <component id="441e8" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <text value="Número 2"/>
+            </properties>
+          </component>
+          <component id="1e56e" class="javax.swing.JTextField" binding="txtNum2">
+            <constraints/>
+            <properties>
+              <background color="-16316665"/>
+              <foreground color="-1"/>
+              <preferredSize width="200" height="30"/>
+            </properties>
+          </component>
+          <component id="430c5" class="javax.swing.JButton" binding="btnSum">
+            <constraints/>
+            <properties>
+              <autoscrolls value="false"/>
+              <background color="-16316665"/>
+              <foreground color="-1"/>
+              <name value=""/>
+              <preferredSize width="50" height="30"/>
+              <text value="+"/>
+            </properties>
+          </component>
+          <component id="8d9ee" class="javax.swing.JButton" binding="btnSub">
+            <constraints/>
+            <properties>
+              <background color="-16316665"/>
+              <foreground color="-1"/>
+              <preferredSize width="50" height="30"/>
+              <text value="-"/>
+            </properties>
+          </component>
+          <component id="7668f" class="javax.swing.JButton" binding="btnMult">
+            <constraints/>
+            <properties>
+              <background color="-16316665"/>
+              <foreground color="-1"/>
+              <preferredSize width="50" height="30"/>
+              <text value="x"/>
+            </properties>
+          </component>
+          <component id="f1dd9" class="javax.swing.JButton" binding="btnDiv">
+            <constraints/>
+            <properties>
+              <background color="-16316665"/>
+              <foreground color="-1"/>
+              <preferredSize width="50" height="30"/>
+              <text value="/"/>
+            </properties>
+          </component>
+          <component id="acf47" class="javax.swing.JLabel" binding="lblResp">
+            <constraints/>
+            <properties>
+              <preferredSize width="300" height="30"/>
+              <text value="Resultado: "/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
