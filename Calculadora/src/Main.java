@@ -51,10 +51,17 @@ public class Main {
             @Override
             public void actionPerformed(ActionEvent e) {
 
-                int num1=Integer.parseInt(txtNum1.getText());
-                int num2=Integer.parseInt(txtNum2.getText());
-                int div=num1/num2;
-                lblResp.setText("Resultado: "+div);
+                float num1=Integer.parseInt(txtNum1.getText());
+                float num2=Integer.parseInt(txtNum2.getText());
+                if (num2 == 0) {
+
+                    JOptionPane.showMessageDialog(null, "Divisão por zero não permitida!!!");
+                }
+                else {
+
+                    float div = num1 / num2;
+                    lblResp.setText("Resultado: " + div);
+                }
             }
         });
     }
